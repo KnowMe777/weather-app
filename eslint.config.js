@@ -5,9 +5,19 @@ import prettierPlugin from 'eslint-plugin-prettier';
 
 export default defineConfig([
   js.configs.recommended,
-  prettierConfig, // disables ESLint rules that conflict with Prettier
+  prettierConfig,
   {
     files: ['**/*.js'],
+    languageOptions: {
+      globals: {
+        window: 'readonly',
+        document: 'readonly',
+        console: 'readonly',
+        fetch: 'readonly',
+      },
+      ecmaVersion: 2021,
+      sourceType: 'module',
+    },
     plugins: {
       prettier: prettierPlugin,
     },
@@ -15,9 +25,8 @@ export default defineConfig([
       'no-unused-vars': 'warn',
       'no-undef': 'warn',
       semi: ['error', 'always'],
-      quotes: ['error', 'single'], // enforce single quotes in ESLint itself
+      quotes: ['error', 'single'],
 
-      // Prettier formatting rules
       'prettier/prettier': [
         'error',
         {

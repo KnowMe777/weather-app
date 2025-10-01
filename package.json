@@ -1,5 +1,6 @@
 {
-  "name": "webapck-starter",
+  "name": "weather-app",
+  "homepage": "https://knowme777.github.io/weather-app/",
   "version": "1.0.0",
   "description": "Reusable Webpack boilerplate with CSS, images, and GitHub Pages deploy",
   "type": "module",

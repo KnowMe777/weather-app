@@ -76,9 +76,10 @@ export default {
   },
   devServer: {
     static: './dist',
-    port: 3000,
+    hot: true, //
+    liveReload: true,
+    watchFiles: ['src/**/*'],
     open: true,
-    hot: true,
   },
   devtool: 'source-map',
   mode: 'development',

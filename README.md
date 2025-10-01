@@ -13,7 +13,7 @@ It fetches real-time weather data from an API and displays temperature, weather 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **HTML5** – Structure
 - **CSS3** – Styling & responsiveness

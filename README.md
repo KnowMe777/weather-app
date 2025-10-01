@@ -1,13 +1,27 @@
-# Webpack Boilerplate
+# Weather App
 
-A ready-to-use Webpack starter template with support for CSS, images, and GitHub Actions.
+A simple and responsive weather application built with **HTML, CSS, and JavaScript**.  
+It fetches real-time weather data from an API and displays temperature, weather conditions, location, and coordinates in a clean UI.
 
-## Getting Started
+---
 
-Clone this boilerplate into a new project using [degit](https://github.com/Rich-Harris/degit):
+## Features
 
-```bash
-npx degit KnowMe777/webpack-starter my-new-project
-cd my-new-project
-npm install
-```
+- **Search by city name** to get live weather updates
+- Displays **temperature, weather condition, and location**
+- **Responsive design** (works on desktop, tablet, and mobile)
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Structure
+- **CSS3** – Styling & responsiveness
+- **JavaScript (ES6)** – Logic & API integration
+- **Weather API** – [Visual Crossing](https://www.visualcrossing.com/weather-api/)
+
+---
+
+## Live Preview
+
+Click the link - [Live Demo](https://knowme777.github.io/weather-app/)

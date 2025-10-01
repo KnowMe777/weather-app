@@ -199,7 +199,7 @@ p {
   }
 
   .location-div {
-    margin-top: 30px;
+    margin-top: 70px;
     padding: 5px;
     font-size: 18px;
     width: auto;
@@ -208,7 +208,7 @@ p {
   }
 
   .coordinate-div {
-    margin-top: 60px;
+    margin-top: 10px;
     height: 30px auto;
     width: 220px auto;
     gap: 35px;
@@ -218,4 +218,4 @@ p {
 }
 
 
-/*# sourceMappingURL=styles.59a265e55cd089107155.css.map*/
+/*# sourceMappingURL=styles.7d79dbf8b7a6a4b073d2.css.map*/
